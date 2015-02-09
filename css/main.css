@@ -1,3 +1,5 @@
+/*FONTELLI-icons styles*/
+
 @font-face {
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?27535694');
@@ -57,43 +59,38 @@
 body{
 	font-family: 'Lato'; 
 }
-
 a{
 	text-decoration: none;
 }
 a:hover{
 	text-decoration: none;
 }
-
 h3{
 	margin-top:0; 
 	font-weight: 700;	
 }
-
 h2{
 	margin-top:0;
 	font-size: 30px;
 	font-weight: 700;
 }
-
 p{
 	margin-top:0;
 	font-size: 18px;
 	font-weight: 400;
 }
-
 .description_h3{
 	font-size: 18px;
-
 }
 .description_p{
 	font-size: 12px;
-class="icon-location"
 }
 
 .container{
 	max-width: 1020px;
 }
+
+
 
 /*HEADER*/
 #header{
@@ -103,13 +100,11 @@ class="icon-location"
 	color:#fff;
 	text-transform: uppercase;
 }
-
 #header a{
 	color:#fff;
 	line-height: 25px;
 
 }
-
 #header a + #header a{
 	margin-left:14px;
 }
@@ -121,11 +116,9 @@ class="icon-location"
 	content: "*";
 	color: #f06c64;
 }
-
 .menu {
 	text-align: right;
 }
-
 
 .menu a{
 	position:relative;
@@ -134,7 +127,6 @@ class="icon-location"
 #header .menu a:hover{
 	color:#f06c64;
 }
-
 .menu a+a{
 	margin-left: 30px;
 }
@@ -169,7 +161,6 @@ class="icon-location"
 	background: none;
 }
 
-
 /*SERVICES*/
 #services{
 	background: #f2f2f2;
@@ -180,11 +171,9 @@ class="icon-location"
 .service_item{
 	padding-top: 39px;
 }
-
 .service_thumbnail{
 	text-align: center;
 }
-
 
 
 /*PORTFOLIO*/
@@ -235,8 +224,8 @@ class="icon-location"
 }
 .person .social{
 	margin-top: 28px;
+	display:inline-block;
 }
-
 .social  a{
 	float: left;
 	display: block; 
@@ -253,17 +242,14 @@ class="icon-location"
 	-moz-transition: all, 0.3s; 
 	transition: all, 0.3s; 
 }
-
 /*.social a:hover { 
 	background-color: #767e9e; 
 	color: #f2f2f2; 
 	text-decoration: none; 
 }*/
-
 .social a+a{
 	margin:0 0 0 10px;
 }
-
 
 /*CONTACT*/
 #contact{
@@ -275,7 +261,6 @@ class="icon-location"
 #contact .container .row{
 	margin-top: 48px;
 }
-
 #contact .container .row a{
 	color: #f0d9da;
 	display: block;
@@ -290,7 +275,6 @@ class="icon-location"
 .contact_info{
 	margin-bottom: 18px;
 }
-
 .form-control{
 	background-color:#d6564f;
 	border: 1px solid #d6564f;
@@ -301,30 +285,24 @@ class="icon-location"
 	color: #fff;
 	font-weight: 300;
 }
-
 .form-control:focus {
 	border-color: #f0d9da;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 }
-
 #contact ::-webkit-input-placeholder {
    color: #f0d9da;
 }
-
 #contact :-moz-placeholder { /* Firefox 18- */
    color: #f0d9da;  
 }
-
 #contact ::-moz-placeholder {  /* Firefox 19+ */
    color: #f0d9da;  
 }
-
 #contact :-ms-input-placeholder {  
    color: #f0d9da;  
 }
-
 
 /*FOOTER*/
 #footer{
@@ -332,7 +310,6 @@ class="icon-location"
 	padding: 20px 0;;
 	color: #666d89;
 }
-
 #footer .row .social  a{
 	border: 1px solid #666d89; 
 	color: #666d89;
@@ -344,12 +321,10 @@ class="icon-location"
 #footer .row .social a+a{
 margin:0 10px 0 0;
 }
-
 #footer .row .social a:hover { 
 	background-color: #666d89; 
 	color: #2d303a; 
 }
-
 .footer_p{
 	font-size: 12px;
 	line-height: 36px;
@@ -357,7 +332,7 @@ margin:0 10px 0 0;
 	margin: 0;
 }
 
-/*Waves_effect*/
+/*Waves_effect start and not edited*/
 
   .waves-effect.waves-light .waves-ripple {
     background-color: rgba(255, 255, 255, 0.45); }
