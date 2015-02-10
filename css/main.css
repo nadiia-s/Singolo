@@ -224,7 +224,7 @@ p{
 }
 .person .social{
 	margin-top: 28px;
-	display:inline-block;
+	/*display:inline-block;*/
 }
 .social  a{
 	border: 1px solid #767e9e; 
@@ -246,7 +246,7 @@ p{
 	text-decoration: none; 
 }*/
 .social a+a{
-	margin:0 0 0 10px;
+	margin-left: 10px;
 }
 
 /*CONTACT*/
@@ -290,16 +290,16 @@ p{
 	box-shadow: none;
 }
 #contact ::-webkit-input-placeholder {
-   color: #f0d9da;
+   	color: #f0d9da;
 }
 #contact :-moz-placeholder { /* Firefox 18- */
-   color: #f0d9da;  
+	  color: #f0d9da;  
 }
 #contact ::-moz-placeholder {  /* Firefox 19+ */
-   color: #f0d9da;  
+	  color: #f0d9da;  
 }
 #contact :-ms-input-placeholder {  
-   color: #f0d9da;  
+	  color: #f0d9da;  
 }
 
 /*FOOTER*/
@@ -315,9 +315,9 @@ p{
 	-moz-transition: all, 0.3s; 
 	transition: all, 0.3s; 
 }
-#footer .row .social a+a{
-	margin:0 10px 0 0;
-}
+/*#footer .row .social a+a{*/
+/*	margin:0 10px 0 0;*/
+/*}*/
 #footer .row .social a:hover { 
 	background-color: #666d89; 
 	color: #2d303a; 
