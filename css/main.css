@@ -338,6 +338,9 @@ p{
   border-radius: 5px; 
   color: #dedede;
 }
+.contact_form .waves-effect{
+  display: block;
+}
 
 
     /*!
@@ -351,7 +354,7 @@ p{
 .waves-effect {
   position: relative;
   cursor: pointer;
-  /*display: inline-block;*/
+  display: inline-block;
   overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -480,5 +483,3 @@ p{
 a.waves-effect .waves-ripple {
   z-index: -1;
 }
-
-
