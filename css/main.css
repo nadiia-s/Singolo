@@ -1,4 +1,4 @@
-/*FONTELLI-icons styles*/
+/*FONTELLO-icons styles*/
 
 @font-face {
   font-family: 'fontello';
@@ -219,14 +219,14 @@ p{
 .person{
 	margin-top: 50px; 
 }
-.person img{ 
-	margin-bottom: 19px;
+.person h3{ 
+	margin-top: 19px;
 }
 .person .social{
 	margin-top: 28px;
-	/*display:inline-block;*/
 }
-.social  a{
+.icons{
+  display:inline-block;
 	border: 1px solid #767e9e; 
 	border-radius: 50%; 
 	line-height: 36px; 
@@ -240,12 +240,12 @@ p{
 	-moz-transition: all, 0.3s; 
 	transition: all, 0.3s; 
 }
-/*.social a:hover { 
+.icons:hover { 
 	background-color: #767e9e; 
 	color: #f2f2f2; 
 	text-decoration: none; 
-}*/
-.social a+a{
+}
+.icons+.icons{
 	margin-left: 10px;
 }
 
@@ -284,7 +284,7 @@ p{
 	font-weight: 300;
 }
 .form-control:focus {
-	border-color: #f0d9da;
+	border-color: transparent;
 	outline: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -308,17 +308,14 @@ p{
 	padding: 20px 0;;
 	color: #666d89;
 }
-#footer .row .social  a{
+#footer .icons{
 	border: 1px solid #666d89; 
 	color: #666d89;
 	-webkit-transition: all, 0.3s; 
 	-moz-transition: all, 0.3s; 
 	transition: all, 0.3s; 
 }
-/*#footer .row .social a+a{*/
-/*	margin:0 10px 0 0;*/
-/*}*/
-#footer .row .social a:hover { 
+#footer .icons:hover { 
 	background-color: #666d89; 
 	color: #2d303a; 
 }
@@ -329,22 +326,19 @@ p{
 	margin: 0;
 }
 
-/*Waves_effect start and not edited*/
 
-  .waves-effect.waves-light .waves-ripple {
-    background-color: rgba(255, 255, 255, 0.45); }
-  .waves-effect.waves-red .waves-ripple {
-    background-color: rgba(244, 67, 54, 0.7); }
-  .waves-effect.waves-yellow .waves-ripple {
-    background-color: rgba(255, 235, 59, 0.7); }
-  .waves-effect.waves-orange .waves-ripple {
-    background-color: rgba(255, 152, 0, 0.7); }
-  .waves-effect.waves-purple .waves-ripple {
-    background-color: rgba(156, 39, 176, 0.7); }
-  .waves-effect.waves-green .waves-ripple {
-    background-color: rgba(76, 175, 80, 0.7); }
-  .waves-effect.waves-teal .waves-ripple {
-    background-color: rgba(0, 150, 136, 0.7); }
+
+/*CUSTOM edited WAVES-styles*/
+.portfolio_tags .waves-button:hover{
+  line-height: 22px;
+  padding: 0 7px 0 7px;
+
+  font-size: 12px;
+  border:1px #dedede solid;
+  border-radius: 5px; 
+  color: #dedede;
+}
+
 
     /*!
  * Waves v0.6.0
@@ -357,7 +351,7 @@ p{
 .waves-effect {
   position: relative;
   cursor: pointer;
-  display: inline-block;
+  /*display: inline-block;*/
   overflow: hidden;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -442,10 +436,10 @@ p{
   text-decoration: none;
   z-index: 1;
 }
-.waves-button {
+/*.waves-button {
   padding: 0.85em 1.1em;
   border-radius: 0.2em;
-}
+}*/
 .waves-button-input {
   margin: 0;
   padding: 0.85em 1.1em;
@@ -486,3 +480,5 @@ p{
 a.waves-effect .waves-ripple {
   z-index: -1;
 }
+
+
